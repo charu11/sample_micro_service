@@ -23,7 +23,8 @@ app.post('/books', function(req, res){
             console.log('error has occured', err);
 
         }else{
-            console.log("success, video has been saved! ")
+            console.log("success, video has been saved! ");
+            console.log(videos);
         }
     });
  });
